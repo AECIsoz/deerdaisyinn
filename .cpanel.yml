@@ -1,0 +1,7 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/horseand/public_html
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp README.md $DEPLOYPATH
+        - /bin/cp style.css $DEPLOYPATH

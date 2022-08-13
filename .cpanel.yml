@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/horseand/public_html/
+    - export DEPLOYPATH=/home/horseand/deerdaisyinn.site/
     - /bin/cp index.html /home/horseand/repositories/deerdaisyinn $DEPLOYPATH
     - /bin/cp style.css /home/horseand/repositories/deerdaisyinn $DEPLOYPATH
     - /bin/cp README.md /home/horseand/repositories/deerdaisyinn $DEPLOYPATH
